@@ -1,0 +1,25 @@
+.profile__nav{
+    margin-top: 30px;
+}
+
+.profile__nav .active {
+    background-color: #DEB887;
+    color: #fff;
+}
+
+.profile__nav .active a {
+    color: #fff;
+}
+
+.nav-item{
+    margin-right: 30px;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #DEB887;
+    font-size: 20px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}

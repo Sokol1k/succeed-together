@@ -1,0 +1,82 @@
+.private-task {
+    background-color: #FAEBD7;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.private-task:last-child {
+    margin-bottom: 0;
+}
+
+.private-task__btn {
+    cursor: pointer;
+}
+
+.private-task__btn-close {
+    font-size: 26px;
+}
+
+.private-task__btn-star {
+    font-size: 20px;
+}
+
+.private-task__btn-star svg {
+    display: block;
+}
+
+.private-task__text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.private-task__status {
+    position: relative;
+}
+
+.private-task__status-select {
+    cursor: pointer;
+    font-size: 10px;
+    padding: 1px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.done {
+    background-color: #5af042;
+}
+
+.inprogress {
+    color: #fff;
+    background-color: #001eff;
+}
+
+.expired {
+    color: #fff;
+    background-color: red;
+}
+
+.private-task__status-options {
+    position: absolute;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 0 0 5px 5px;
+    right: 0;
+    z-index: 10;
+    width: 105px;
+}
+
+.private-task__status-options div {
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.private-task__status-options div:last-child {
+    margin-bottom: 0;
+}
+
+.private-task__status-options div:hover {
+    background-color: #eee;
+}

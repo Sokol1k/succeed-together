@@ -1,0 +1,78 @@
+.user {
+    color: black;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.user__left {
+    border: 1px solid #DEB887;
+    padding: 30px;
+    height: fit-content;
+}
+
+.user__left a {
+    color: black !important;
+}
+
+.user__left-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.user__left-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FAEBD7;
+    border-radius: 25px; 
+}
+
+.user__left-text {
+    flex-direction: column;
+    display: flex;
+    background-color: #FAEBD7;
+    border-radius: 25px;
+}
+
+.user__right-about {
+    background-color: #DEB887 !important;
+    color: white;
+    padding: 20px;
+}
+
+.user__right-about-content {
+    background-color: white;
+    color: black;
+    word-break: break-all;
+    border-radius: 10px;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+
+.user__right-publications {
+    margin-top: 25px;
+}
+
+.user__right-publications-title {
+    background-color: #DEB887;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.user__left-unfollow {
+    background-color: #FAEBD7;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.user__left-follow {
+    background-color: #A52A2A;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.following-list{
+    margin-left: 100px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+    border-left: 1px solid #A52A2A;
+    border-right: 1px solid #A52A2A;
+    border-bottom: 1px solid #A52A2A;
+}
+.following-list__title{
+    background-color: #A52A2A;
+    margin-bottom: 30px;
+    color: white;
+}

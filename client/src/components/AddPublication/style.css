@@ -1,0 +1,35 @@
+.add-publication {
+    border: 2px solid #DEB887;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.add-publication textarea {
+    resize: none;
+}
+
+.my-public__right__publications__add-publication textarea{
+    resize: none;
+}
+
+.add-publication__btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.add-publication-btn-open {
+    font-size: 44px;
+    color: #A52A2A;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.add-publication__btn-submit{
+    background-color: #A52A2A !important;
+    border: none !important;
+    font-size: 18px !important;
+}

@@ -1,0 +1,38 @@
+.private-search {
+    max-width: 330px;
+    margin: 30px auto 0 auto;
+}
+
+.private {
+    min-height: 80vh;
+    display: flex;
+    overflow-x: scroll;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.private__btn-add-column svg {
+    font-size: 20px;
+}
+
+
+
+.private::-webkit-scrollbar {
+    width: 3px;
+}
+
+.private::-webkit-scrollbar-track {
+    margin: 20px;
+}
+
+.private::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #ffc107;
+}
+
+.private::-webkit-scrollbar-track-piece {
+    border-radius: 2px;
+    background-color: #fff;
+}

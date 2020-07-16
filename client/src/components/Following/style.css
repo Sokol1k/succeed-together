@@ -1,0 +1,12 @@
+.following{
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.following__img{
+    width: 150px;
+}
+.following__name{
+    align-self: center;
+    margin-left: 25px;
+}

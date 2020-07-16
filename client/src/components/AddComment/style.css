@@ -1,0 +1,16 @@
+.add-comment__title {
+    background-color: #A52A2A;
+    color: #fff;
+    text-align: center;
+}
+
+.add-comment__btn-submit {
+    position: absolute;
+    right: 0;
+    background-color: #A52A2A !important;
+    border-color: #A52A2A !important;
+}
+
+.add-comment__input {
+    padding-right: 85px !important;
+}

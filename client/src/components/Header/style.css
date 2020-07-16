@@ -1,0 +1,96 @@
+.header{
+    /* background-color: #0079bf !important; */
+    background-color: white;
+    color: black !important;
+    /* font-size: 30px; */
+}
+.header__right{
+    margin-left: auto !important;
+}
+/* .header__right a{
+    padding: 20px;
+    font-size: 35px;
+} */
+.header a{
+    color: black;
+}
+
+.navbar-brand a{
+    display: inline-block;
+    font-size: 41px;
+    padding: 0 10px;
+    font-family: 'Brush Script MT', cursive;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.header__right a{
+    display: inline-block;
+    font-size: 35px;
+    padding: 0 10px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition: color 300ms;
+    transition: color 300ms;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.navbar-brand a:hover,
+.header__right a:hover{
+    border-radius: 10px;
+    color: black;
+}
+.header a:hover{
+    text-decoration: none;
+}
+
+.navbar-brand a::before,
+.header__right a::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #DEB887;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition: 300ms ease-out;
+    transition: 300ms ease-out;
+}
+
+.navbar-brand a:hover:before,
+.header__right a:hover:before{
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+
+.blue {
+    background-color: #FAEBD7;
+}
+.logout{
+    padding: 7px 18px;
+    background-color: #FAF0FF;;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.logout:hover{
+    background-color: #ffc107;
+}

@@ -1,0 +1,81 @@
+.private-list {
+    min-width: 350px;
+    max-width: 350px !important;
+    margin: 0 10px;
+    background-color: #A52A2A;
+    height: fit-content;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 750px;
+}
+
+.private-list__btn {
+    cursor: pointer;
+}
+
+.private-list__btn-close {
+    font-size: 26px;
+}
+
+.private-list__title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.private-list__btn-star {
+    font-size: 26px;
+}
+
+.private-list__btn-star svg {
+    display: block;
+}
+
+.private-list__tasks {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.private-list__tasks::-webkit-scrollbar {
+    width: 5px;
+}
+
+.private-list__tasks::-webkit-scrollbar-track {
+    margin: 20px;
+}
+
+.private-list__tasks::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #DEB887;
+}
+
+.private-list__tasks::-webkit-scrollbar-track-piece {
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.private-list__update-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    color: #000;
+}
+
+.private-list__update-form-lable {
+    font-size: 18px;
+}
+
+.private-list__btn-submit {
+    background-color: #A52A2A !important;
+    border: none !important;
+}
+
+.private-list__btn-close {
+    font-size: 35px;
+    cursor: pointer;
+}

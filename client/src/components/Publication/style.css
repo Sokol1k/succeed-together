@@ -1,0 +1,45 @@
+.publication{
+    border: 2px solid #DEB887;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.publication__icon-update {
+    cursor: pointer;
+}
+
+.publication__icon-close {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.publication__btn-more {
+    cursor: pointer;
+}
+
+.publication__icon-comments {
+    cursor: pointer;
+}
+
+.publication__icon-close-update {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.publication-avatar {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.publication__like {
+    cursor: pointer;
+}
+
+.publication__description {
+    white-space: pre-wrap;
+}

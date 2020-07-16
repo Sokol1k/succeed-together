@@ -1,0 +1,29 @@
+.search {
+    min-height: calc(100vh - 380px);
+}
+
+.search__btn-submit {
+    position: absolute;
+    right: 0;
+    background-color: #A52A2A !important;
+    border-color: #A52A2A !important;
+}
+
+.search__input {
+    padding-right: 85px !important;
+}
+
+.search__img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.search__users-list {
+    border-bottom: 1px solid #A52A2A;
+    padding: 10px 0;
+}
+
+.search__users-list:last-child {
+    border-bottom: none;
+}

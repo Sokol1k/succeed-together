@@ -1,0 +1,42 @@
+.add-private-list__btn-add-column {
+    background-color: #A52A2A;
+    color: #fff;
+    height: min-content;
+    padding: 12px 50px 12px 40px;
+    border-radius: 10px;
+    border: 1px solid transparent;    
+    display: flex;
+    align-items: center;
+    min-width: 215px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.add-private-list__title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.add-private-list__btn-submit {
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    border-radius: 10px !important;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
+.add-private-list__btn-close {
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.add-private-list {
+    min-width: 350px;
+    height: fit-content;
+    background-color: #A52A2A;
+    padding: 15px;
+    border-radius: 10px;
+}

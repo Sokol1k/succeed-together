@@ -1,0 +1,35 @@
+.add-private-task__btn-add {
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.add-private-task__btn-add-plus {
+    position: absolute;    
+    font-size: 26px;
+    left: 85px;
+    top: 10px;
+}
+
+.add-private-task__form {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-private-task__form-bottom button {
+    background-color: #A52A2A !important;
+    border: none !important;
+}
+
+.add-private-task__form-bottom svg {
+    font-size: 35px;
+    cursor: pointer;
+}

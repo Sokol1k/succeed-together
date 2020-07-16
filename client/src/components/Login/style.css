@@ -1,0 +1,55 @@
+
+/* 
+body{
+    background-color: black;
+} 
+
+a{
+    background-color: black;
+} */
+
+.login{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: #FAEBD7;
+    border-bottom: 5px solid white;
+    /* flex: 1 0 auto; */
+}
+
+.login_content {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px !important;
+}
+
+.login__label{
+    color: black;
+    font-size: 21px;
+}
+
+.password__label{
+    color: black;
+    font-size: 21px;
+}
+
+.login__btn{
+    font-size: 21px !important;
+    background-color: #DEB887 !important;
+    border-color: #DEB887 !important;
+}
+.login__title{
+    color: black;
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+.login__error-message {
+    text-align: center;
+    color: red;
+}
+.is-registered{
+    color: #A52A2A;
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,24 @@
+.signup{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FAEBD7;
+    border-bottom: 5px solid white;
+}
+.name__label{
+    color: black;
+    font-size: 21px;
+}
+.confirm-password__label{
+    color: black;
+    font-size: 21px;
+}
+.signup__title{
+    padding-bottom: 30px;
+    color: black;
+    font-size: 33px;
+}
+.signup_content{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
